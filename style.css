@@ -1,0 +1,87 @@
+*{
+margin: 0%;
+padding: 0%;
+
+  font-family: 'Poppins', sans-serif;
+
+
+
+}
+.box {
+  margin: auto 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 200px;
+  margin-top: 50px;
+  gap:30px;
+ max-width: 1100px;
+  padding: 0 20px;
+  
+}
+
+
+.block {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* clean shadow */
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  flex: 1 1 300px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: 1px solid rgb(167, 163, 163); 
+  border-radius: 20px;
+  background-color: transparent; 
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+
+
+#text {
+  color: rgb(136, 143, 148);
+  font-size: 14px;
+  margin-top: 20px;
+
+
+}
+
+
+/* Colored heading parts */
+.orange {
+  color: rgb(236, 161, 21);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.blue {
+  color: rgb(27, 27, 87);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+
+img {
+  height: 80px;
+  
+  margin-top: -50px;
+}
+
+#head {
+  text-align: center;
+  max-width: 600px;
+  margin:70px auto ;
+  
+}
+
+
